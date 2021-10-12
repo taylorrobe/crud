@@ -37,8 +37,7 @@ namespace Crud_u_like
 
             app.UseRouting();
 
-            app.UseAuthorization();
-
+            app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
